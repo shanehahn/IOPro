@@ -1,0 +1,5 @@
+username:aiopro
+password:aiopro
+IP_address:147.46.241.141
+port:22
+remote_aiopro_visualizer_location:~/workspace/a/b/c/d

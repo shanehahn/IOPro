@@ -1,0 +1,2 @@
+python adb_pull.py log_dir
+python aiopro_parser.py log_dir

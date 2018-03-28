@@ -1,0 +1,1 @@
+cmd_fs/pmfs/pmfs.o := ld -m elf_x86_64   -r -o fs/pmfs/pmfs.o fs/pmfs/bbuild.o fs/pmfs/balloc.o fs/pmfs/dir.o fs/pmfs/file.o fs/pmfs/inode.o fs/pmfs/namei.o fs/pmfs/super.o fs/pmfs/symlink.o fs/pmfs/ioctl.o fs/pmfs/journal.o fs/pmfs/wprotect.o fs/pmfs/xip.o 

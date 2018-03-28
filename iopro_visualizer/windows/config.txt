@@ -1,0 +1,31 @@
+System Call | 400 | SYSCALL_DEFINE3(read) | dark green
+System Call | 410 | SYSCALL_DEFINE3(write) | dark green 
+System Call | 401 | SYSCALL_DEFINE4(pread64) | dark green 
+System Call | 411 | SYSCALL_DEFINE4(pwrite64) | dark green  
+System Call | 402 | SYSCALL_DEFINE3(readv) | dark green  
+System Call | 412 | SYSCALL_DEFINE3(writev) | dark green 
+System Call | 403 | SYSCALL_DEFINE5(preadv) | dark green 
+System Call | 414 | COMPAT_SYSCALL_DEFINE3(writev) | dark green 
+System Call | 404 | COMPAT_SYSCALL_DEFINE3(readv) | dark green 
+System Call | 405 | COMPAT_SYSCALL_DEFINE4(preadv64) | dark green 
+System Call | 415 | COMPAT_SYSCALL_DEFINE4(pwritev64) | dark green 
+VFS | 500 | do_generic_file_read | blue
+VFS | 501 | generic_file_aio_read | blue
+VFS | 502 | page_cache_read | blue
+VFS | 509 | generic_file_direct_write | blue
+VFS | 508 | generic_file_buffered_write | blue
+VFS | 507 | generic_file_aio_write | blue
+File System | 609 | do_blockdev_direct_IO | black
+File System | 610 | sdcardfs_read | black
+File System | 611 | sdcardfs_write | black
+Block I/O | 700 | submit_bio | orange
+Block I/O | 702 | blk_run_queue | orange
+Block I/O | 701 | cfq_insert_request | orange
+Block I/O | 710 | blk_done_softirq | orange
+SCSI | 800 | scsi_request_fn | purple
+SCSI | 810 | scsi_softirq_done | purple
+UFS | 900 | ufshcd_queuecommand | red
+UFS | 910 | ufshcd_intr | red
+UFS | 920 | ufshcd_operation | red
+UFS | 921 | ufshcd_operation | red
+SYNC | 418 | fsync/fdatasync | black

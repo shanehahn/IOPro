@@ -1,0 +1,3 @@
+python adb_pull.py log_dir
+python aiopro_parser.py log_dir
+python log2mysql.py -l log_dir -s ServerAddr -d Database -t Table -u aiopro -p aiopro

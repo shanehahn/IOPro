@@ -1,0 +1,1 @@
+python log2mysql.py -l log_dir -s ServerAddr -d Database -t Table -u aiopro -p aiopro
