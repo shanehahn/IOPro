@@ -7,7 +7,7 @@
 [(Paper Download)](http://cares.snu.ac.kr/?view=boardF&fileN=102865424058621e58c6f75.data)
 - Reference 2: Sangwook Shane Hahn, Inhyuk Yee, Donguk Ryu and Jihong Kim "AIOPro: A Fully-Integrated Storage I/O Profiler for Android Smartphones", Journal of KIISE (JOK), Vol. 44, no. 3, pp. 232-238, 2017.
 [(Paper Download)](http://cares.snu.ac.kr/?view=boardF&fileN=65733309659ce01e588cdb.data)
-- Reference 3: Sangwook Shane Hahn and Jihong Kim "PMOPro: A Fully-Integrated Storage I/O Profiler for Next-Generation Non-Volatile Memory-Based Storage", Korea Software Congress (KSC), 2017.
+- Reference 3: Sangwook Shane Hahn and Jihong Kim "PMPro: A Fully-Integrated Storage I/O Profiler for Next-Generation Non-Volatile Memory-Based Storage", Korea Software Congress (KSC), 2017.
 [(Paper Download)](http://cares.snu.ac.kr/?view=boardF&fileN=7488647945a1d3d6ca89b2.data)
 
 ---
