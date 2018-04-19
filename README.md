@@ -71,14 +71,13 @@ All information what IOPro collects are as following:
   + drivers/scsi/scsi_lib.c
   + drivers/mmc/card/block.c (for eMMC driver)
   + drivers/mmc/core/core.c (for eMMC driver)
-  + driver/scsi/ufs/ufshcd.c (for Galaxy S6)
+  + driver/scsi/ufs/ufshcd.c (for UFS driver)
   + drivers/block/nvme-core.c (for Linux 3.x NVMe driver)
   + drivers/nvme/host/pci.c (for Linux 4.x NVMe driver)
 - IOPro main module: 
   + fs/aiopro.c (newly added file) 
   + fs/Makefile 
   + init/main.c
-  + drivers/trace/exynos-ss.c (for Galaxy S6)
 - Library and header: 
   + include/linux/fs.h 
   + include/linux/blk_types.h 
