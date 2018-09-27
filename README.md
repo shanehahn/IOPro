@@ -14,7 +14,7 @@
 
 **IOPro** is a fully-integrated storage I/O profiler for Linux. IOPro traces storage I/O from application - system call - virtual file system – native file system - page cache - block layer - device driver. IOPro combines the storage I/O information from I/O layers by linking them with file information and physical address. User can start to log storage I/O information by using sysfs interface. All of collected traces are held in memory buffer temporally until logging process is finished.
 IOPro can track storage I/O information from all I/O layers without any data loss under 0.1% system overheads.
-IOPro can import the profiling results to the any database. IOPro can also visualize the profiling results with waveform.
+IOPro can export the profiling results to the any database. IOPro can also visualize the profiling results with waveform.
 
 All information what IOPro collects are as following:
 
